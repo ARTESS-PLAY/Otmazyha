@@ -8,12 +8,19 @@ const MainPage = () =>{
   return(
       <Wrapper>
         <h1>Отмазуха</h1>
-        <div>
+        <div className='btns'>
           <RoundButton
           callback={()=>{
             navigate('/game');
           }}>
-            Начать
+            Играть
+          </RoundButton>
+          <RoundButton
+          callback={()=>{
+            navigate('/ruls');
+          }}
+          >
+            Правила
           </RoundButton>
         </div>
       </Wrapper>

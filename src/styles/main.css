@@ -78,20 +78,6 @@ body{
     transform: perspective(600px) rotateY(0deg);
 }
 
-.MainCard{
-  /* transform: translate(-50%, -50%); */
-}
-
-/* .card:nth-child(1){
-  left: -10px;
-}
-.card:nth-child(2){
-  left: -20px;
-}
-.card:nth-child(3){
-  left: -30px;
-} */
-
 
 .cardAr{
   position: relative;
@@ -118,6 +104,15 @@ body{
   animation: deleteCard 1s ease-in-out infinite;
   opacity: 0;
   transition: 500ms ease-in;
+}
+
+.btns{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btns button{
+  margin-top: 20px;
 }
 
 @keyframes deleteCard {
