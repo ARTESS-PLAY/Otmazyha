@@ -1,17 +1,20 @@
 import React from 'react';
 
 let reasonArr = [
-  {action:'Позвал', content:'в кино'},{action:'Попросил', content:'помочь с работой'},{action:'Предложил', content:'вызвать "девочек"'},
-  {action:'Позвал', content:'бухать'},{action:'Попросил', content:'посидеть с детьми'},{action:'Предложил', content:'нажраться'},
-  {action:'Позвал', content:'на ужин'},{action:'Попросил', content:'скинуть интимку'},{action:'Предложил', content:'сходить в клуб'},
-  {action:'Позвал', content:'на дачу'},{action:'Попросил', content:'занять денег'},{action:'Предложил', content:'половой акт'},
-  {action:'Позвал', content:'гулять'},{action:'Попросил', content:'довести в больницу'},{action:'Предложил', content:'сунуть палец в розетку'},
+  {action:'позвал', content:'в кино'},{action:'попросил', content:'помочь с работой'},{action:'предложил', content:'вызвать "девочек"'},
+  {action:'позвал', content:'бухать'},{action:'попросил', content:'посидеть с детьми'},{action:'предложил', content:'нажраться'},
+  {action:'позвал', content:'на ужин'},{action:'попросил', content:'скинуть интимку'},{action:'предложил', content:'сходить в клуб'},
+  {action:'позвал', content:'на дачу'},{action:'попросил', content:'занять денег'},{action:'предложил', content:'половой акт'},
+  {action:'позвал', content:'гулять'},{action:'попросил', content:'довести в больницу'},{action:'предложил', content:'сунуть палец в розетку'},
+  {action:'позвал', content:'на охоту'},{action:'попросил', content:'Доесть'},{action:'предложил', content:'создать семью'},
 ];
 
 let whoArr = [
   {sex:'и', who:'Родители'},{sex:'', who:'Брат'},{sex:'', who:'Муж'},{sex:'', who:'Бомж'},{sex:'', who:'Друг'},
   {sex:'а', who:'Сестра'},{sex:'', who:'Коллега'},{sex:'и', who:'Друзья'},{sex:'а', who:'Мама'},{sex:'', who:'Отец'},
   {sex:'и', who:'Незнакомцы'},{sex:'и', who:'Наркоманы'},{sex:'и', who:'Свингеры'},{sex:'', who:'Клоун'},{sex:'', who:'Начальник'},
+  {sex:'', who:'Собака'},{sex:'', who:'Призрак'},{sex:'', who:'Путин'},{sex:'', who:'Анимешник'},{sex:'', who:'Приятель'},
+  {sex:'', who:'Наполеон'},{sex:'', who:'Репер'},{sex:'', who:'Пушкин'},{sex:'и', who:'Инопланетяне'},{sex:'и', who:'Аборигены'},
 ]
 
 function getRandomInt(min, max) {
