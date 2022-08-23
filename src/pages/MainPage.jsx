@@ -1,19 +1,22 @@
 import React from 'react';
-import cl from './MainPage.module.css';
-import RoundButton from '../components/UI/Buttons/RoundButton'
+import RoundButton from '../components/UI/Buttons/RoundButton';
+import Wrapper from '../components/Wrapper';
+import {useNavigate} from 'react-router-dom';
 
 const MainPage = () =>{
+  const navigate = useNavigate();
   return(
-    <div className={cl.main}>
-      <div className={cl.main__contant}>
+      <Wrapper>
         <h1>Отмазуха</h1>
-
         <div>
-          <RoundButton>Начать</RoundButton>
+          <RoundButton
+          callback={()=>{
+            navigate('/game');
+          }}>
+            Начать
+          </RoundButton>
         </div>
-
-      </div>
-    </div>
+      </Wrapper>
   );
 }
 
